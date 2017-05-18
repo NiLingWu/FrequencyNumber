@@ -38,5 +38,12 @@ describe("Player", function() {
     //demonstrates use of custom matcher
  //   expect(player).toBePlaying(song);
   });
+  it("should return 'is 2\n he 1'when given 'he is is" , function() {
+
+    expect(player.main('he is is')).toEqual('is 2\nhe 1');
+
+    //demonstrates use of custom matcher
+ //   expect(player).toBePlaying(song);
+  });
 
 });
