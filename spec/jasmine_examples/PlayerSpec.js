@@ -17,5 +17,12 @@ describe("Player", function() {
  //   expect(player).toBePlaying(song);
   });
 
+  it("should return 'is 1'when given 'is" , function() {
+
+    expect(player.main('is')).toEqual('is 1');
+
+    //demonstrates use of custom matcher
+ //   expect(player).toBePlaying(song);
+  });
+
 });
- 
