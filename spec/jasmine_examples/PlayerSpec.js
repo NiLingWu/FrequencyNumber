@@ -24,5 +24,12 @@ describe("Player", function() {
     //demonstrates use of custom matcher
  //   expect(player).toBePlaying(song);
   });
+  it("should return 'he 1\n is 1'when given 'he is" , function() {
+
+    expect(player.main('he is')).toEqual('he 1\nis 1');
+
+    //demonstrates use of custom matcher
+ //   expect(player).toBePlaying(song);
+  });
 
 });
